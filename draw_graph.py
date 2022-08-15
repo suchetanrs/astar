@@ -1,6 +1,6 @@
 
 from matplotlib import pyplot as plt
-import rospy
+# import rospy
 from erc_hackathon_22.srv import GetPathPoints
 
 no_of_rows=12
@@ -45,14 +45,14 @@ def make_obstacles3():
     # obstacle_list=[[3,0],[3,1],[3,2],[3,3],[3,4],[3,5]]
     obstacle_list=[[3,0]]
 
-def active_make_obstacles():
-    global obstacle_list
-    rospy.wait_for_service('/get_obstacles_grid')
-    # rospy.loginfo("Grid")
-    get_obstacles_grid=rospy.ServiceProxy('/get_obstacles_grid',GetPathPoints)
-    resp=get_obstacles_grid()
-    for item in resp.points:
-        obstacle_list.append([item.x,item.y])
+# def active_make_obstacles():
+#     global obstacle_list
+#     rospy.wait_for_service('/get_obstacles_grid')
+#     # rospy.loginfo("Grid")
+#     get_obstacles_grid=rospy.ServiceProxy('/get_obstacles_grid',GetPathPoints)
+#     resp=get_obstacles_grid()
+#     for item in resp.points:
+#         obstacle_list.append([item.x,item.y])
 
 
 def draw_obstacles():
