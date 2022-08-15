@@ -2,7 +2,7 @@
 
 # Video Demonstration
 ![](https://github.com/suchetanrs/astar/blob/master/README_files/animate.gif)
-__This is a gif showing examples of some paths.__
+__This is a gif showing examples of some paths.__<br/>
 __The green block is the start coordinate and the red block is the end coordinate__
 
 # Working of the algorithm
