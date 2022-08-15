@@ -1,4 +1,4 @@
-__Repository contains the code for A* search algorithm visualised on a simple matplotlib graph__
+Repository contains the code for A* search algorithm visualised on a simple matplotlib graph
 # A* path planning algorithm
 
 # Video Demonstration
