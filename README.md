@@ -2,7 +2,8 @@
 
 # Video Demonstration
 ![](https://github.com/suchetanrs/astar/blob/master/README_files/animate.gif)
-This is a gif showing examples of some paths.
+__This is a gif showing examples of some paths.__
+__The green block is the start coordinate and the red block is the end coordinate__
 
 # Working of the algorithm
 A* is an extension of __Dijkstra's algorithm.__ It works breadth-first search. This means that it is Dijkstra's algorithm but the search is in the direction of the end co-ordinate most of the time. <br/>
